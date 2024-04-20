@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>In ra số lượng các số > 10 va chia hêt cho 3 từ a đến b</p>
+</body>
+<script>
+    let a = +prompt("Nhập a: ");
+    let b = +prompt("Nhập b: ");
+    for (let dem = a; dem < b; dem++) {
+        if (dem > 10 && dem % 3 === 0) {
+            document.write('<h1>' + dem + ' </h1>')
+        }
+    }
+</script>
+</html>

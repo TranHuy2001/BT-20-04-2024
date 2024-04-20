@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<p>In ra tổng các số chia hết cho 6 từ a đến b</p>-->
+
+<!--<p>Nhập a: </p>-->
+<!--<input type="number" id="a">-->
+<!--<p>Nhập b: </p>-->
+<!--<input type="number" id="b">-->
+<!--<button onclick="getData()">Xem kết qủa</button>-->
+<!--<p id="kq"></p>-->
+</body>
+<script>
+    // function getData() {
+    //     let a = document.getElementById("a").value;
+    //     let b = document.getElementById("b").value;
+    //
+    //     for (let tong = a; tong < b ; tong++) {
+    //         if (tong % 6 === 0) {
+    //             // document.write('<h1' + tong + '</h1>')
+    //             document.getElementById("kq").innerHTML = '<h1>' + tong + '</h1>'
+    //         }
+    //     }
+    // }
+
+    let a = +prompt("Nhập a: ");
+    let b = +prompt("Nhập b: ");
+    for (let dem = a; dem < b; dem++) {
+        if (dem % 6 === 0) {
+            document.write('<h1>' + dem + ' </h1>')
+        }
+    }
+</script>
+</html>

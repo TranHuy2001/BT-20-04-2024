@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>In ra tích các số chẵn và chia het cho 5 từ a đến b</p>
+</body>
+<script>
+    let a = +prompt("Nhập a: ");
+    let b = +prompt("Nhập b: ");
+    for (let dem = a; dem < b; dem++) {
+        if (dem % 2 === 0 && dem % 5 === 0) {
+            document.write('<h1>' + dem + ' </h1>')
+        }
+    }
+</script>
+</html>
